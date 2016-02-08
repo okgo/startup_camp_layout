@@ -1,0 +1,1608 @@
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+    background: transparent;
+}
+
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+
+b,
+strong {
+    font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+
+pre {
+    white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+
+img {
+    border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 2 */
+    margin: 0; /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input {
+    line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+
+button,
+select {
+    text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+@font-face {
+  font-family: 'geometriaregular';
+  src: url("fonts/geometria-webfont.eot");
+  src: url("fonts/geometria-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/geometria-webfont.woff2") format("woff2"), url("fonts/geometria-webfont.woff") format("woff"), url("fonts/geometria-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'geometriabold';
+  src: url("fonts/geometria-bold-webfont.eot");
+  src: url("fonts/geometria-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/geometria-bold-webfont.woff2") format("woff2"), url("fonts/geometria-bold-webfont.woff") format("woff"), url("fonts/geometria-bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'geometriamedium';
+  src: url("fonts/geometria-medium-webfont.eot");
+  src: url("fonts/geometria-medium-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/geometria-medium-webfont.woff2") format("woff2"), url("fonts/geometria-medium-webfont.woff") format("woff"), url("fonts/geometria-medium-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/* See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/ */
+/* Default font size in pixels if not overridden. */
+/* Convert PX units to EMs.
+Ex: margin-right: pem(16);
+*/
+/* Used to convert PX to EMs for multiple properties or values or both.
+$base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+
+Examples:
+
+@include scale(line-height, 30)
+@include scale(line-height, 30, 16)
+@include scale(width height, 125);
+@include scale(padding, 0 25, 16);
+@include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+@include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+*/
+/* line 43, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_config.scss */
+p {
+  margin: 0; }
+
+/* line 45, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_config.scss */
+ul, ol {
+  margin: 0;
+  padding: 0; }
+  /* line 48, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_config.scss */
+  ul li, ol li {
+    list-style-type: none;
+    list-style: none; }
+
+/* line 51, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_config.scss */
+menu {
+  margin: 0;
+  padding: 0; }
+
+/* line 53, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_config.scss */
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0; }
+
+/* line 3, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_base.scss */
+body {
+  width: 100%;
+  font-family: "geometriaregular", sans-serif;
+  font-size: 14px;
+  letter-spacing: normal;
+  color: #251a3d;
+  font-weight: 400;
+  background-color: #fff; }
+
+@media only screen and (max-width: 1024px) {
+  /* line 14, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_base.scss */
+  body {
+    font-size: 12px;
+    min-width: 768px; } }
+/* line 20, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_base.scss */
+html {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 22, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_base.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 24, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_base.scss */
+.container {
+  *zoom: 1;
+  max-width: 1110px;
+  max-width: 69.375rem;
+  _width: 1110px;
+  padding-left: 30px;
+  padding-left: 1.875rem;
+  padding-right: 30px;
+  padding-right: 1.875rem;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+  /* line 38, /Users/admin/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+@media only screen and (max-width: 960px) {
+  /* line 27, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_base.scss */
+  .container {
+    padding: 0 10px; } }
+/* line 31, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_base.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  *zoom: 1; }
+
+/* line 39, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+/* line 41, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_base.scss */
+h1 {
+  font-size: 3.85714em;
+  color: #fff;
+  font-family: "geometriabold", sans-serif; }
+  /* line 45, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_base.scss */
+  h1 span {
+    color: #fecd00; }
+
+/* line 48, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_base.scss */
+h2 {
+  font-size: 3.57143em;
+  color: #251a3d;
+  font-family: "geometriabold", sans-serif; }
+
+/* line 54, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_base.scss */
+h3 {
+  font-size: 2em;
+  font-family: "geometriamedium", sans-serif;
+  color: #20202c; }
+
+/* line 1, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_footer.scss */
+.main-footer {
+  background: url("../images/footer-back.png") #241937 center center no-repeat;
+  height: 23.21429em; }
+
+/* line 6, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_footer.scss */
+.footer-contacts {
+  text-align: right;
+  padding-top: 4.28571em; }
+  /* line 9, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_footer.scss */
+  .footer-contacts p {
+    color: #fff;
+    font-size: 1.64286em;
+    /* unwrap lists for values that have multiple list of values such as text-shadow */
+    line-height: 1.08696em; }
+    /* line 13, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_footer.scss */
+    .footer-contacts p span {
+      color: #4e357a;
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      font-size: 0.69565em;
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      margin-right: 0.73913em; }
+
+/* line 21, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_footer.scss */
+.footer-bottom {
+  text-align: right;
+  margin-top: 5em; }
+
+/* line 23, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_footer.scss */
+.footer-menu-container, .footer-social-container {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline; }
+
+/* line 25, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_footer.scss */
+.footer-menu-container {
+  margin-right: 19.64286em; }
+  /* line 27, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_footer.scss */
+  .footer-menu-container li {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    margin-right: 1.42857em; }
+    /* line 30, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_footer.scss */
+    .footer-menu-container li:last-child {
+      margin-right: 0; }
+    /* line 31, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_footer.scss */
+    .footer-menu-container li a {
+      color: #4c3476;
+      text-decoration: none;
+      display: block;
+      line-height: 2.28571em;
+      -moz-transition: color 0.3s;
+      -o-transition: color 0.3s;
+      -webkit-transition: color 0.3s;
+      transition: color 0.3s; }
+      /* line 37, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_footer.scss */
+      .footer-menu-container li a:hover {
+        color: #fff; }
+
+/* line 43, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_footer.scss */
+.footer-social-container li {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline; }
+  /* line 45, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_footer.scss */
+  .footer-social-container li a {
+    display: block;
+    width: 2.42857em;
+    height: 2.28571em;
+    background: url("../images/social-icos.png") no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover; }
+    /* line 51, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_footer.scss */
+    .footer-social-container li a.facebook {
+      background-position: 0 0;
+      margin-right: 1.42857em; }
+    /* line 55, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_footer.scss */
+    .footer-social-container li a.twitter {
+      background-position: 0 -2.28571em; }
+
+/* line 1, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+.main-header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5.71429em;
+  background: #241937; }
+
+/* line 11, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+.logo-container {
+  width: 22.97297%;
+  float: left;
+  margin-right: 2.7027%;
+  display: inline; }
+
+/* line 13, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+.main-logo {
+  display: block;
+  width: 9.28571em;
+  height: 3.57143em;
+  background: url("../images/main-logo.png") left center no-repeat;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+  margin: 1.07143em 0;
+  outline: none !important; }
+
+/* line 23, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+.menu-container {
+  width: 74.32432%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -30px;
+  display: inline; }
+  /* line 25, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+  .menu-container ul {
+    float: right;
+    padding: 20px 0; }
+  /* line 29, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+  .menu-container li {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    margin-right: 3.35714em; }
+    /* line 32, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+    .menu-container li:last-child {
+      margin-right: 0; }
+      /* line 34, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+      .menu-container li:last-child a {
+        /* unwrap lists for values that have multiple list of values such as text-shadow */
+        /* unwrap lists for values that have multiple list of values such as text-shadow */
+        padding: 0em 1.66667em;
+        background: #fecd00;
+        color: #231a3f;
+        font-family: "geometriaregular", sans-serif;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        -moz-transition: background, 0.3s;
+        -o-transition: background, 0.3s;
+        -webkit-transition: background, 0.3s;
+        transition: background, 0.3s; }
+        /* line 41, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+        .menu-container li:last-child a:hover {
+          background: #fdd535;
+          opacity: 1; }
+        /* line 42, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+        .menu-container li:last-child a.active span {
+          display: none; }
+    /* line 45, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+    .menu-container li a {
+      position: relative;
+      display: block;
+      font-family: "geometriamedium", sans-serif;
+      font-size: 1.07143em;
+      color: #fff;
+      text-decoration: none;
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      line-height: 2.66667em;
+      opacity: 1;
+      -moz-transition: opacity 0.3s;
+      -o-transition: opacity 0.3s;
+      -webkit-transition: opacity 0.3s;
+      transition: opacity 0.3s;
+      outline: none !important; }
+      /* line 56, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+      .menu-container li a span {
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 1px;
+        background: #fff;
+        opacity: 0;
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+        -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+        -o-transition: opacity 0.3s, -o-transform 0.3s;
+        -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+        transition: opacity 0.3s, transform 0.3s; }
+      /* line 67, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+      .menu-container li a:hover {
+        opacity: 0.8; }
+      /* line 69, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+      .menu-container li a.active span {
+        opacity: 1;
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px); }
+
+@media only screen and (max-width: 1024px) {
+  /* line 79, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+  .logo-container {
+    width: 14.41441%;
+    float: left;
+    margin-right: 2.7027%;
+    display: inline; }
+
+  /* line 80, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+  .menu-container {
+    width: 82.88288%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -30px;
+    display: inline; } }
+@media only screen and (max-width: 960px) {
+  /* line 84, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+  .main-header {
+    position: static;
+    left: auto;
+    top: auto;
+    height: auto; }
+
+  /* line 90, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+  .logo-container {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -30px;
+    display: inline;
+    text-align: center; }
+
+  /* line 94, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+  .menu-container {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -30px;
+    display: inline;
+    text-align: center; }
+    /* line 97, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+    .menu-container ul {
+      display: inline-block;
+      vertical-align: middle;
+      *vertical-align: auto;
+      *zoom: 1;
+      *display: inline;
+      float: none; }
+
+  /* line 102, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+  .main-logo {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline; } }
+/* line 1, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+.accordion dl {
+  border: 1px solid #e4e3e8;
+  margin: 0; }
+
+/* line 6, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+.accordion dt > a {
+  display: block;
+  font-family: "geometriamedium", sans-serif;
+  font-size: 1.42857em;
+  /* unwrap lists for values that have multiple list of values such as text-shadow */
+  /* unwrap lists for values that have multiple list of values such as text-shadow */
+  /* unwrap lists for values that have multiple list of values such as text-shadow */
+  /* unwrap lists for values that have multiple list of values such as text-shadow */
+  padding: 1em 2.7em 1em 4em;
+  text-decoration: none;
+  color: #251a3d;
+  -moz-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  outline: none !important; }
+  /* line 15, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+  .accordion dt > a span {
+    display: block;
+    /* unwrap lists for values that have multiple list of values such as text-shadow */
+    font-size: 0.7em;
+    color: #9d9ca0;
+    -moz-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out; }
+
+/* line 23, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+.accordion dd {
+  background-color: #fff;
+  font-size: 1em;
+  line-height: 1.71429em;
+  margin: 0; }
+
+/* line 30, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+.accordion dd .text {
+  padding: 2.14286em 2.5em;
+  color: #251a3d; }
+  /* line 33, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+  .accordion dd .text p {
+    margin-top: 1.42857em; }
+    /* line 35, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+    .accordion dd .text p:first-child {
+      margin-top: 0; }
+
+/* line 39, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+.accordion {
+  position: relative;
+  max-width: 790px;
+  width: 100%;
+  margin: 0 auto 4.64286em auto; }
+
+/* line 46, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+.accordionTitle {
+  display: block;
+  position: relative;
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #e4e3e8; }
+
+/* line 53, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+.accordionTitle:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  /* unwrap lists for values that have multiple list of values such as text-shadow */
+  margin-top: -0.75em;
+  /* unwrap lists for values that have multiple list of values such as text-shadow */
+  right: 1em;
+  display: block;
+  /* unwrap lists for values that have multiple list of values such as text-shadow */
+  width: 1.5em;
+  /* unwrap lists for values that have multiple list of values such as text-shadow */
+  height: 1.5em;
+  background: url("../images/accordion-ico.png") no-repeat;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -moz-transition: -moz-transform 0.3s ease-in-out;
+  -o-transition: -o-transform 0.3s ease-in-out;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out; }
+
+/* line 69, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+.accordionTitle:hover {
+  background-color: #2a7057;
+  color: #fff; }
+  /* line 72, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+  .accordionTitle:hover span {
+    color: #5fa38b; }
+
+/* line 75, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+.accordionTitleActive {
+  background-color: #2a7057;
+  color: #fff !important; }
+  /* line 78, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+  .accordionTitleActive span {
+    color: #5fa38b !important; }
+
+/* line 80, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+.accordionTitleActive:before {
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg); }
+
+/* line 82, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+.accordionItem {
+  height: auto;
+  overflow: hidden; }
+
+@media all {
+  /* line 87, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+  .accordionItem {
+    max-height: 892px;
+    -moz-transition: max-height 1s;
+    -o-transition: max-height 1s;
+    -webkit-transition: max-height 1s;
+    transition: max-height 1s; } }
+/* line 96, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+.accordionItemCollapsed {
+  max-height: 0; }
+
+/* line 98, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+.animateIn {
+  -webkit-animation-name: accordionIn;
+  -webkit-animation-duration: 0.65s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 0s;
+  -moz-animation-name: normal;
+  -moz-animation-duration: 0.65s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-direction: alternate;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-fill-mode: both;
+  -moz-animation-delay: 0s;
+  animation-name: accordionIn;
+  animation-duration: 0.65s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 0s; }
+
+/* line 122, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_accordion.scss */
+.animateOut {
+  -webkit-animation-name: accordionOut;
+  -webkit-animation-duration: 0.75s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 0s;
+  -moz-animation-name: accordionOut;
+  -moz-animation-duration: 0.75s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-direction: alternate;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-fill-mode: both;
+  -moz-animation-delay: 0s;
+  animation-name: accordionOut;
+  animation-duration: 0.75s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 0s; }
+
+@-webkit-keyframes accordionIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.8); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1); } }
+@-moz-keyframes accordionIn {
+  0% {
+    opacity: 0;
+    -moz-transform: scale(0.8); }
+  100% {
+    opacity: 1;
+    -moz-transform: scale(1); } }
+@keyframes accordionIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8); }
+  100% {
+    opacity: 1;
+    transform: scale(1); } }
+@-webkit-keyframes accordionOut {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.8); } }
+@-moz-keyframes accordionOut {
+  0% {
+    opacity: 1;
+    -moz-transform: scale(1); }
+  100% {
+    opacity: 0;
+    -moz-transform: scale(0.8); } }
+@keyframes accordionOut {
+  0% {
+    opacity: 1;
+    transform: scale(1); }
+  100% {
+    opacity: 0;
+    transform: scale(0.8); } }
+/* line 1, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+.timeline-container {
+  width: 100%;
+  max-width: 795px;
+  margin: 1.42857em auto 0 auto;
+  padding: 1.42857em 0;
+  position: relative; }
+  /* line 7, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+  .timeline-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 1px;
+    background: #fff;
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  /* line 17, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+  .timeline-container::after {
+    content: '';
+    display: table;
+    clear: both; }
+
+@media only screen and (max-width: 1170px) {
+  /* line 26, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+  .timeline-container::before {
+    left: 1.42857em;
+    -moz-transform: translateX(none);
+    -ms-transform: translateX(none);
+    -webkit-transform: translateX(none);
+    transform: translateX(none); } }
+/* line 33, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+.timeline-block {
+  position: relative;
+  margin: 2.85714em 0;
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 37, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+  .timeline-block:first-child {
+    margin-top: 0; }
+  /* line 38, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+  .timeline-block:last-child {
+    margin-bottom: 0; }
+
+/* line 41, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+.timeline-img {
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  width: 2.85714em;
+  height: 2.85714em;
+  left: 50%;
+  margin: -1.42857em 0 0 -1.42857em;
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden; }
+  /* line 49, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+  .timeline-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative; }
+  /* line 59, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+  .cssanimations .timeline-img.is-hidden {
+    visibility: hidden; }
+  /* line 60, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+  .cssanimations .timeline-img.bounce-in {
+    visibility: visible;
+    -moz-animation: cd-bounce-1 0.6s;
+    -webkit-animation: cd-bounce-1 0.6s;
+    animation: cd-bounce-1 0.6s; }
+  /* line 64, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+  .timeline-img .time {
+    position: absolute;
+    width: 100%;
+    left: -132%;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 1.14286em;
+    font-family: "geometriabold", sans-serif;
+    color: #fff; }
+  /* line 75, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+  .timeline-block:nth-child(even) .timeline-img .time {
+    left: auto;
+    right: -132%;
+    text-align: right; }
+
+@media only screen and (max-width: 1170px) {
+  /* line 84, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+  .timeline-img {
+    margin: -1.42857em 0 0 0;
+    left: 0; }
+    /* line 87, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+    .timeline-img .time {
+      left: auto;
+      right: -132%;
+      text-align: right; } }
+@-moz-keyframes cd-bounce-1 {
+  0% {
+    opacity: 0;
+    -moz-transform: scale(0.5);
+    transform: scale(0.5); }
+  60% {
+    opacity: 1;
+    -moz-transform: scale(1.2);
+    transform: scale(1.2); }
+  100% {
+    -moz-transform: scale(1);
+    transform: scale(1); } }
+@-webkit-keyframes cd-bounce-1 {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+@keyframes cd-bounce-1 {
+  0% {
+    opacity: 0;
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  60% {
+    opacity: 1;
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+  100% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+/* line 111, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+.timeline-content {
+  position: relative;
+  margin-left: 10em;
+  padding: 1em;
+  background: #fff;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+  /* line 117, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+  .timeline-content .read-more, .timeline-content .time {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline; }
+  /* line 118, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+  .timeline-content .read-more {
+    color: #00a7b0;
+    font-size: 1.14286em;
+    /* unwrap lists for values that have multiple list of values such as text-shadow */
+    line-height: 1.25em;
+    /* unwrap lists for values that have multiple list of values such as text-shadow */
+    margin-top: 0.3125em; }
+  /* line 124, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+  .timeline-content h3 {
+    font-size: 1.14286em;
+    font-family: "geometriabold", sans-serif;
+    color: #4b4752;
+    /* unwrap lists for values that have multiple list of values such as text-shadow */
+    line-height: 1.25em; }
+    /* line 129, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+    .timeline-content h3 span {
+      font-family: "geometriaregular", sans-serif;
+      display: block;
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      font-size: 0.8125em; }
+      /* line 133, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+      .timeline-content h3 span b {
+        font-family: "geometriamedium", sans-serif; }
+  /* line 136, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+  .timeline-content::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 99%;
+    height: 0;
+    width: 0;
+    border: 15px solid transparent;
+    border-right: 15px solid #fff;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  @media only screen and (min-width: 1170px) {
+    /* line 111, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+    .timeline-content {
+      margin-left: 0;
+      padding: 1.42857em;
+      width: 265px; }
+      /* line 152, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+      .timeline-content.small {
+        width: 165px;
+        margin-left: 100px;
+        margin-right: 0; }
+      /* line 157, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+      .timeline-content::before {
+        top: 50%;
+        left: 100%;
+        border-color: transparent;
+        border-left-color: #fff;
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%); }
+      /* line 165, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+      .timeline-block:nth-child(even) .timeline-content {
+        float: right; }
+        /* line 167, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+        .timeline-block:nth-child(even) .timeline-content.small {
+          width: 165px;
+          margin-right: 100px;
+          margin-left: 0; }
+        /* line 172, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+        .timeline-block:nth-child(even) .timeline-content::before {
+          left: auto;
+          right: 100%;
+          border-color: transparent;
+          border-right-color: #fff; }
+      /* line 180, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+      .cssanimations .timeline-content.is-hidden {
+        visibility: hidden; }
+      /* line 182, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+      .cssanimations .timeline-content.bounce-in {
+        visibility: visible;
+        -moz-animation: cd-bounce-2 0.6s;
+        -webkit-animation: cd-bounce-2 0.6s;
+        animation: cd-bounce-2 0.6s; } }
+
+@media only screen and (min-width: 1170px) {
+  /* inverse bounce effect on even content blocks */
+  /* line 192, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
+  .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
+    -moz-animation: cd-bounce-2-inverse 0.6s;
+    -webkit-animation: cd-bounce-2-inverse 0.6s;
+    animation: cd-bounce-2-inverse 0.6s; } }
+@-moz-keyframes cd-bounce-2 {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-100px);
+    transform: translateX(-100px); }
+  60% {
+    opacity: 1;
+    -moz-transform: translateX(20px);
+    transform: translateX(20px); }
+  100% {
+    -moz-transform: translateX(0);
+    transform: translateX(0); } }
+@-webkit-keyframes cd-bounce-2 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px); }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px); }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); } }
+@keyframes cd-bounce-2 {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px); }
+  60% {
+    opacity: 1;
+    -moz-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px); }
+  100% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0); } }
+@-moz-keyframes cd-bounce-2-inverse {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(100px);
+    transform: translateX(100px); }
+  60% {
+    opacity: 1;
+    -moz-transform: translateX(-20px);
+    transform: translateX(-20px); }
+  100% {
+    -moz-transform: translateX(0);
+    transform: translateX(0); } }
+@-webkit-keyframes cd-bounce-2-inverse {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px); }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px); }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); } }
+@keyframes cd-bounce-2-inverse {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(100px);
+    -ms-transform: translateX(100px);
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px); }
+  60% {
+    opacity: 1;
+    -moz-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px); }
+  100% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0); } }
+/* line 1, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+.main-slide {
+  height: 67em;
+  width: 100%;
+  background: url("../images/main-slide-back.jpg") center top no-repeat;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
+  padding-top: 5.71429em; }
+  /* line 7, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+  .main-slide .text-container {
+    max-width: 730px;
+    margin: 100px auto 0 auto;
+    text-align: center;
+    padding: 0 5px; }
+  /* line 13, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+  .main-slide p {
+    color: #fff;
+    font-size: 1.28571em;
+    /* unwrap lists for values that have multiple list of values such as text-shadow */
+    line-height: 1.44444em; }
+    /* line 17, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+    .main-slide p span {
+      display: block; }
+
+/* line 21, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+.themes-slide-header {
+  text-align: center;
+  padding: 5.71429em 0 7.14286em 0; }
+  /* line 24, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+  .themes-slide-header .themes-header-inner {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline; }
+  /* line 28, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+  .themes-slide-header h2 {
+    position: absolute;
+    top: 42%;
+    left: 58%;
+    z-index: 10; }
+  /* line 34, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+  .themes-slide-header .back-text {
+    position: relative;
+    display: block;
+    font-size: 14.28571em;
+    /* unwrap lists for values that have multiple list of values such as text-shadow */
+    line-height: 0.82em;
+    font-family: "geometriabold", sans-serif;
+    color: #f3f3f3;
+    z-index: 1; }
+  /* line 43, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+  .themes-slide-header .back-ilust {
+    display: block;
+    position: absolute;
+    left: 2.85714em;
+    bottom: -2.85714em;
+    width: 20.28571em;
+    height: 8.57143em;
+    background: url("../images/themes-header-illust.png") no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: 5; }
+
+@media only screen and (max-width: 960px) {
+  /* line 58, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+  .themes-slide-header .back-text {
+    font-size: 10.42857em; } }
+/* line 62, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+.speakers-slide {
+  background: #00a7b0; }
+
+/* line 66, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+.speakers-slide-header, .partners-slide-header {
+  text-align: center;
+  padding: 5.71429em 0 7.14286em 0;
+  position: relative; }
+  /* line 70, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+  .speakers-slide-header::before, .partners-slide-header::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 1.42857em;
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 6em;
+    height: 5.14286em;
+    background: url("../images/speakers-ico.png") no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover; }
+  /* line 81, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+  .speakers-slide-header .speakers-header-inner, .speakers-slide-header .partners-header-inner, .partners-slide-header .speakers-header-inner, .partners-slide-header .partners-header-inner {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline; }
+  /* line 85, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+  .speakers-slide-header h2, .partners-slide-header h2 {
+    position: absolute;
+    top: 34%;
+    left: 0;
+    z-index: 10;
+    color: #fff;
+    width: 100%; }
+  /* line 93, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+  .speakers-slide-header .back-text, .partners-slide-header .back-text {
+    position: relative;
+    display: block;
+    font-size: 14.28571em;
+    /* unwrap lists for values that have multiple list of values such as text-shadow */
+    line-height: 0.82em;
+    font-family: "geometriabold", sans-serif;
+    color: #01b1ba;
+    z-index: 1; }
+
+/* line 105, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+.partners-slide-header::before {
+  display: none; }
+/* line 106, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+.partners-slide-header h2 {
+  color: #251a3d; }
+/* line 107, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+.partners-slide-header .back-text {
+  color: #f3f3f3; }
+
+@media only screen and (max-width: 960px) {
+  /* line 112, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+  .speakers-slide-header .back-text, .partners-slide-header .back-text {
+    font-size: 10.42857em; } }
+/* line 116, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+.counter-container {
+  padding-bottom: 5em;
+  text-align: center; }
+  /* line 119, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+  .counter-container .getting-started {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    color: #f7911e; }
+    /* line 122, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+    .counter-container .getting-started span {
+      color: #6b6b7a; }
+  /* line 124, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+  .counter-container .countdown-timer {
+    font-size: 1.07143em;
+    color: #6b6b7a;
+    /* unwrap lists for values that have multiple list of values such as text-shadow */
+    margin-top: 0.66667em; }
+  /* line 129, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+  .counter-container .btn-container {
+    margin-top: 3.57143em; }
+    /* line 131, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+    .counter-container .btn-container a {
+      display: inline-block;
+      vertical-align: middle;
+      *vertical-align: auto;
+      *zoom: 1;
+      *display: inline;
+      position: relative;
+      font-size: 1.42857em;
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      padding: 0em 4em 0em 1.5em;
+      color: #fff;
+      background: #ffa743;
+      text-decoration: none;
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      height: 2.9em;
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      line-height: 2.9em;
+      -moz-border-radius: 29px;
+      -webkit-border-radius: 29px;
+      border-radius: 29px;
+      -moz-transition: background 0.3s;
+      -o-transition: background 0.3s;
+      -webkit-transition: background 0.3s;
+      transition: background 0.3s; }
+      /* line 143, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+      .counter-container .btn-container a:hover {
+        background: #fecd00; }
+      /* line 144, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+      .counter-container .btn-container a::before {
+        content: '';
+        position: absolute;
+        /* unwrap lists for values that have multiple list of values such as text-shadow */
+        right: 0.75em;
+        /* unwrap lists for values that have multiple list of values such as text-shadow */
+        bottom: 0.25em;
+        display: block;
+        /* unwrap lists for values that have multiple list of values such as text-shadow */
+        width: 2.6em;
+        /* unwrap lists for values that have multiple list of values such as text-shadow */
+        height: 3.2em;
+        background: url("../images/btn-ico.png") no-repeat;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover; }
+
+/* line 160, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+.partners-slide .counter-container {
+  padding-bottom: 12.5em; }
+
+/* line 163, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+.partners-list {
+  width: 100%;
+  margin-bottom: 8.92857em; }
+  /* line 166, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+  .partners-list li {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    width: 16.66%;
+    padding-right: 2.7%;
+    text-align: center;
+    margin: 2.85714em 0; }
+    /* line 172, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+    .partners-list li img {
+      width: auto;
+      height: auto;
+      max-width: 100%; }
+    /* line 177, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
+    .partners-list li:nth-child(6n) {
+      padding-right: 0; }

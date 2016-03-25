@@ -506,7 +506,7 @@ html {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
-  /* line 38, /Users/admin/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, /Users/admin/Works/startup_camp/pages/vendor/bundle/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
   .container:after {
     content: "";
     display: table;
@@ -685,7 +685,7 @@ h3 {
     *vertical-align: auto;
     *zoom: 1;
     *display: inline;
-    margin-right: 3.35714em; }
+    margin-right: 2.85714em; }
     /* line 32, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
     .menu-container li:last-child {
       margin-right: 0; }
@@ -708,10 +708,10 @@ h3 {
         .menu-container li:last-child a:hover {
           background: #fdd535;
           opacity: 1; }
-        /* line 42, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+        /* line 45, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
         .menu-container li:last-child a.active span {
           display: none; }
-    /* line 45, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+    /* line 48, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
     .menu-container li a {
       position: relative;
       display: block;
@@ -727,7 +727,7 @@ h3 {
       -webkit-transition: opacity 0.3s;
       transition: opacity 0.3s;
       outline: none !important; }
-      /* line 56, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+      /* line 59, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
       .menu-container li a span {
         display: block;
         position: absolute;
@@ -744,10 +744,10 @@ h3 {
         -o-transition: opacity 0.3s, -o-transform 0.3s;
         -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
         transition: opacity 0.3s, transform 0.3s; }
-      /* line 67, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+      /* line 70, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
       .menu-container li a:hover {
         opacity: 0.8; }
-      /* line 69, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+      /* line 72, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
       .menu-container li a.active span {
         opacity: 1;
         -moz-transform: translateY(0px);
@@ -756,14 +756,14 @@ h3 {
         transform: translateY(0px); }
 
 @media only screen and (max-width: 1024px) {
-  /* line 79, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+  /* line 82, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
   .logo-container {
     width: 14.41441%;
     float: left;
     margin-right: 2.7027%;
     display: inline; }
 
-  /* line 80, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+  /* line 83, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
   .menu-container {
     width: 82.88288%;
     float: right;
@@ -771,14 +771,14 @@ h3 {
     *margin-left: -30px;
     display: inline; } }
 @media only screen and (max-width: 960px) {
-  /* line 84, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+  /* line 87, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
   .main-header {
     position: static;
     left: auto;
     top: auto;
     height: auto; }
 
-  /* line 90, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+  /* line 93, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
   .logo-container {
     width: 100%;
     float: right;
@@ -787,7 +787,7 @@ h3 {
     display: inline;
     text-align: center; }
 
-  /* line 94, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+  /* line 97, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
   .menu-container {
     width: 100%;
     float: right;
@@ -795,7 +795,7 @@ h3 {
     *margin-left: -30px;
     display: inline;
     text-align: center; }
-    /* line 97, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+    /* line 100, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
     .menu-container ul {
       display: inline-block;
       vertical-align: middle;
@@ -804,7 +804,7 @@ h3 {
       *display: inline;
       float: none; }
 
-  /* line 102, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
+  /* line 105, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_header.scss */
   .main-logo {
     display: inline-block;
     vertical-align: middle;
@@ -1449,7 +1449,7 @@ h3 {
   position: relative; }
   /* line 70, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
   .speakers-slide-header::before, .partners-slide-header::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     bottom: 1.42857em;
@@ -1562,7 +1562,7 @@ h3 {
         background: #fecd00; }
       /* line 144, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_index.scss */
       .counter-container .btn-container a::before {
-        content: '';
+        content: "";
         position: absolute;
         /* unwrap lists for values that have multiple list of values such as text-shadow */
         right: 0.75em;

@@ -11776,7 +11776,7 @@ return i},h.setRatio=function(t){var e,i,s,r=this._firstPT,n=1e-6;if(1!==t||this
  * @license Copyright (c) 2008-2015, GreenSock. All rights reserved.
  * This work is subject to the terms at http://greensock.com/standard-license or for
  * Club GreenSock members, the software agreement that was issued with your membership.
- * 
+ *
  * @author: Jack Doyle, jack@greensock.com
  **/
 
@@ -11902,17 +11902,17 @@ $( document ).ready(function() {
 /*!
  * The Final Countdown for jQuery v2.1.0 (http://hilios.github.io/jQuery.countdown/)
  * Copyright (c) 2015 Edson Hilios
- * 
+ *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of
  * this software and associated documentation files (the "Software"), to deal in
  * the Software without restriction, including without limitation the rights to
  * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
  * the Software, and to permit persons to whom the Software is furnished to do so,
  * subject to the following conditions:
- * 
+ *
  * The above copyright notice and this permission notice shall be included in all
  * copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
  * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
@@ -11981,7 +11981,7 @@ $( document ).ready(function() {
 
   $(document).ready(function() {
     var hideBlocks, offset, showBlocks, timelineBlocks;
-    $('.getting-started').countdown('2016/02/27', function(event) {
+    $('.getting-started').countdown('2016/06/18', function(event) {
       $(this).html(event.strftime('%D %!D:<span>день</span>,<span>днів</span>; %H %!H:<span>година</span>,<span>годин</span>; %M %!M:<span>хвилина<span>,<span>хвилин<span>;'));
     });
     timelineBlocks = $('.timeline-block');

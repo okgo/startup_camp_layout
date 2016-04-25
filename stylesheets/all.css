@@ -1211,7 +1211,12 @@ h3 {
       font-family: "geometriaregular", sans-serif;
       display: block;
       /* unwrap lists for values that have multiple list of values such as text-shadow */
-      font-size: 0.8125em; }
+      font-size: 0.7125em; }
+
+    .timeline-content h3 span.theme {
+      font-size: 0.9em;
+      padding-top: 0.6em; 
+    }
       /* line 133, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
       .timeline-content h3 span b {
         font-family: "geometriamedium", sans-serif; }

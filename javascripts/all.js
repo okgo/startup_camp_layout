@@ -11944,6 +11944,11 @@ $( document ).ready(function() {
     triggerHook: 0.3
   }).setClassToggle('#speakers-link', 'active').addTo(controller);
 
+	new ScrollMagic.Scene({
+    triggerElement: '#venue',
+    triggerHook: 0.3
+  }).setClassToggle('#venue-link', 'active').addTo(controller);
+
   new ScrollMagic.Scene({
     triggerElement: '#partners',
     triggerHook: 0.3
@@ -12011,3 +12016,24 @@ $( document ).ready(function() {
   });
 
 }).call(this);
+
+function initMap() {
+	var mapDiv = document.getElementById('map');
+	var mapIcon = "images/btn-ico.png"
+	var mapLatLng = {lat: 48.921895, lng: 24.712410}
+	var map = new google.maps.Map(mapDiv, {
+		center: mapLatLng,
+		zoom: 15,
+		scrollwheel: !1
+	});
+	var marker = new google.maps.Marker({
+  position: mapLatLng,
+  map: map,
+  icon: mapIcon
+});
+
+}
+
+$(document).ready(function() {
+	initMap();
+});

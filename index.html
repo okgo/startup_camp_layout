@@ -4,6 +4,7 @@
     <meta charset='utf-8'>
     <meta content='width=device-width' name='viewport'>
     <title>STARTUP CAMP</title>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <link href="stylesheets/all.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -30,17 +31,17 @@
                   <span></span>
                 </a>
               </li><li>
+                <a class='menu-link' href='#venue' id='venue-link'>
+                  Місце проведення
+                  <span></span>
+                </a>
+              </li><li>
                 <a class='menu-link' href='#partners' id='partners-link'>
                   Партнери
                   <span></span>
                 </a>
               </li>
-              <!-- <li>
-                <a class='menu-link' href='#'>
-                  Місце проведення
-                  <span></span>
-                </a>
-              </li> -->
+
               <li>
                 <a href='http://goo.gl/forms/tJYCzfW0XV' target='_blank'>Взяти участь</a>
               </li></ul>
@@ -53,9 +54,15 @@
             STARTUP
             <span>CAMP</span>
           </h1>
+          <div class='buy-ticket__container'>
+            <span>18 червня /
+            </span><a href='http://ticketclub.com.ua/event/2910/' class='buy-btn' target="_blank">Придбати Квиток
+            </a>
+          </div>
           <p>
-            Конференція в Івано-Франківську
-            <span>Успішні глобальні стартапи України. Один день нон-стоп лекцій та баланс між надихаючими історіями досвідчених підприємців та інформативними how-to лекціями гарантуємо!</span>
+            <!-- Конференція в Івано-Франківську -->
+            Успішні глобальні стартапи України.
+            <span>Один день нон-стоп лекцій та баланс між надихаючими історіями досвідчених підприємців та інформативними how-to лекціями гарантуємо!</span>
           </p>
         </div>
       </section>
@@ -328,6 +335,80 @@
             </div>
           </div>
         </section>
+        <!-- tickets section -->
+        <section class='tickets-slide' id='tickets'>
+          <div class='container'>
+            <div class='tickets-slide-header'>
+              <div class='tickets-header-inner'>
+                <span class='back-text'>Квитки</span>
+                <h2>Квитки</h2>
+              </div>
+            </div>
+            <ul class='tickets-container'><li class='ticket-container small'>
+              <div class='ticket-header'>
+                <h3>Рання Пташка</h3>
+                <p>100 квитків</p>
+              </div>
+              <div class='ticket-price'>
+                <p>
+                  550
+                  <span>грн</span>
+                </p>
+              </div>
+              <div class='ticket-btn'>
+                <a href='http://ticketclub.com.ua/event/2910/' target='_blank' class='buy-btn'>Придбати</a>
+              </div>
+
+            </li><li class='ticket-container'>
+              <div class='ticket-header'>
+                <h3>Cтандарт</h3>
+                <p>300 квитків</p>
+              </div>
+              <div class='ticket-price'>
+                <p>
+                  750
+                  <span>грн</span>
+                </p>
+              </div>
+              <div class='ticket-btn'>
+                <a href='http://ticketclub.com.ua/event/2910/' target='_blank' class='buy-btn'>Придбати</a>
+              </div>
+
+            </li><li class='ticket-container small'>
+              <div class='ticket-header'>
+                <h3>Останній Шанс</h3>
+                <p>100 квитків</p>
+              </div>
+              <div class='ticket-price'>
+                <p>
+                  1100
+                  <span>грн</span>
+                </p>
+              </div>
+              <div class='ticket-btn'>
+                <a href='http://ticketclub.com.ua/event/2910/' target='_blank' class='buy-btn'>Придбати</a>
+              </div>
+
+            </li>
+
+            </ul>
+
+          </div>
+        </section>
+        <!-- end tickets section -->
+        <!-- venue section -->
+        <section class='venue-slide' id='venue'>
+            <div class='container'>
+              <div class='venue-slide-header'>
+                <h2>Місце проведення</h2>
+                <p>м. Івано-Франківськ, Вул. Євгена Коновальця, 35 “Університет права імені Короля Данила Галицького”</p>
+              </div>
+            </div>
+            <div class='map-container'>
+              <div class='map' id='map'></div>
+            </div>
+        </section
+        <!-- end venue section -->
         <section class='partners-slide' id='partners'>
           <div class='container'>
             <div class='partners-slide-header'>
@@ -416,11 +497,11 @@
                   Партнери
                 </a>
               </li>
-              <!-- <li>
-                <a href='#'>
+              <li>
+                <a href='#venue'>
                   Місце проведення
                 </a>
-              </li> -->
+              </li>
             </ul>
           </div><div class='footer-social-container'>
             <!-- <ul><li>

@@ -12020,7 +12020,7 @@ $( document ).ready(function() {
 function initMap() {
 	var mapDiv = document.getElementById('map');
 	var mapIcon = "images/btn-ico.png"
-	var mapLatLng = {lat: 48.921895, lng: 24.712410}
+	var mapLatLng = {lat: 48.916857, lng: 24.711605}
 	var map = new google.maps.Map(mapDiv, {
 		center: mapLatLng,
 		zoom: 15,

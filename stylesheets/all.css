@@ -1563,10 +1563,14 @@ h3 {
 
 .partners-slide .counter-container { padding-bottom: 12.5em; }
 
+.partners-slide h3 { text-align: center; }
+
 .partners-list {
   width: 100%;
-  margin-bottom: 8.92857em;
+  margin-bottom: 50px;
 }
+
+.partners-slide .counter-container { padding-top: 50px;}
 
 .partners-list li {
   display: inline-block;

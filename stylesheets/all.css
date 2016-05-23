@@ -1167,9 +1167,14 @@ h3 {
       font-size: 0.9em;
       padding-top: 0.6em;
     }
-      /* line 133, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
-      .timeline-content h3 span b {
-        font-family: "geometriamedium", sans-serif; }
+
+      .timeline-content h3 span b { font-family: "geometriamedium", sans-serif; }
+
+      .timeline-content a {
+        color: #251a3d;
+        text-decoration: underline;
+      }
+      .timeline-content a:hover { text-decoration: none; }
   /* line 136, /Users/admin/Works/startup_camp/pages/source/stylesheets/partials/_timeline.scss */
   .timeline-content::before {
     content: '';

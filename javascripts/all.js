@@ -11986,9 +11986,6 @@ $( document ).ready(function() {
 
   $(document).ready(function() {
     var hideBlocks, offset, showBlocks, timelineBlocks;
-    $('.getting-started').countdown('2016/06/18', function(event) {
-      $(this).html(event.strftime('%D %!D:<span>день</span>,<span>днів</span>; %H %!H:<span>година</span>,<span>годин</span>; %M %!M:<span>хвилина<span>,<span>хвилин<span>;'));
-    });
     timelineBlocks = $('.timeline-block');
     offset = 0.8;
     hideBlocks = function(blocks, offset) {
